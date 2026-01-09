@@ -22,7 +22,7 @@ Claude Code Hook 脚本，用于处理400 错误（Invalid signature in thinking
         "hooks": [
           {
             "type": "command",
-            "command": "python C:\\Users\\Administrator\\.claude\\test_session_hook.py"
+            "command": "python C:\\Users\\Administrator\\.claude\\truncate_signature.py"
           }
         ]
       }
