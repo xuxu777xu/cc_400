@@ -24,8 +24,10 @@ def convert_path(original_path):
         path = original_path.replace(":\\", "--").replace("\\", "-").replace("/", "-")
     else:
         path = original_path.replace("/", "-")
-    # 过滤非 ASCII 字符
-    return ''.join(c for c in path if ord(c) < 128)
+    # 下划线替换为 -
+    path = path.replace("_", "-")
+    # 非 ASCII 字符替换为 -
+    return ''.join(c if ord(c) < 128 else '-' for c in path)
 
 
 def has_empty_signature(obj):
