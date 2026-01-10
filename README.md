@@ -3,6 +3,7 @@
 > [https://api.ikuncode.cc/](https://api.ikuncode.cc/) - Claude Code 中转站
 
 ---
+手动图文教程：[/ClaudeCode-400-2e3cf3ac3f988079b79ccceaed4fe8da?source=copy_link](https://dolomite-scorpion-4cb.notion.site/ClaudeCode-400-2e3cf3ac3f988079b79ccceaed4fe8da?source=copy_link)
 
 Claude Code Hook 脚本，用于处理400 错误（Invalid signature in thinking block）。
 
